@@ -1,11 +1,9 @@
 body{
     margin: auto;
     padding: 0;
-    /* color: white; */
     background-color: var(--primary-color) !important;
 }
 .myDark{
-    /* background-color: black;*/
     color: white;
     --primary-color: black;
     --secondary-color: white;
@@ -17,10 +15,6 @@ body{
     --secondary-color: black;
     --tertiary-color: beige;
 }
-/* select{
-    background-color: black;
-    color: White !important;
-} */
 /* headerstart */
 header{
     width: 100%;
@@ -311,13 +305,6 @@ p{
     position: relative;
     text-align: center;
     margin-right: 10px;
-}
-#wspan > img{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    margin-top: 25px;
-    visibility: hidden;
 }
 .couponcode .code1{
     width: 130px;
